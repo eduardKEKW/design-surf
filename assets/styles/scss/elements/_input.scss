@@ -1,0 +1,12 @@
+.input-text {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: $color-ligth-grey;
+    padding: 1.3rem;
+    color: $color-black;
+
+    &:placeholder {
+        color: $color-black;
+    }
+}

@@ -1,0 +1,20 @@
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    &__group {
+        display: flex;
+    }
+
+    &__input {
+        width: 40rem;
+        height: 5rem;
+    }
+
+    &__btn {
+        width: 4rem;
+        height: 5rem;
+    }
+}

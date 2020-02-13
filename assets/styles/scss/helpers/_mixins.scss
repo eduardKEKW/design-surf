@@ -1,0 +1,28 @@
+@mixin for-size($size) {
+  @if $size == small-phone {
+    @media(max-width:350px) { @content; }
+  } @else if $size == phone {
+    @media (max-width: 599px) { @content; }
+  } @else if $size == tablet {
+    @media (max-width: 900px) { @content; }
+  } @else if $size == desktop {
+    @media (max-width: 1200px) { @content; }
+  }
+} 
+
+@mixin uppercase(){
+    letter-spacing: 0rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin shadow {
+    box-shadow: 0px 0px 15px 1px rgba(79, 77, 79, 0.705);
+}

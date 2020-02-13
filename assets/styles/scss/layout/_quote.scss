@@ -1,0 +1,17 @@
+.quote {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    text-align: center;
+
+    @include for-size(tablet) {
+        width: 50%;
+    }
+
+    &__author {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        margin: 3rem;
+        letter-spacing: 4px;
+    }
+}
