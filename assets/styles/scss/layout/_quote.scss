@@ -8,6 +8,10 @@
         width: 50%;
     }
 
+    @include for-size(phone) {
+        width: 90%;
+    }
+
     &__author {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;

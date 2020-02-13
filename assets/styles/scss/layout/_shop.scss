@@ -14,9 +14,12 @@
     }
 
     &__show {
-        width: 15rem;
-        height: 3rem;
-        margin: 5rem auto;
+        @include center();
+        margin-top: 5rem;
+        width: 100%;
+        button {
+            width: 15rem;
+        }
     }
 
 }

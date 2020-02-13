@@ -8,11 +8,15 @@
         text-align: center;
 
         @include for-size(tablet) {
-            width: 60%;
+            width: 80%;
         }
     }
 
     &__input {
         margin: 3rem;
+    }
+
+    &__title {
+        margin: 5rem 0 5rem 0;
     }
 }

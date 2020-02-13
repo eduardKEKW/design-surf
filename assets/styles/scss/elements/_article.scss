@@ -16,7 +16,8 @@
         padding: 3%;
 
         @include for-size(tablet) {
-            width: 90%;
+            width: 100%;
+            margin-bottom: 5rem;
         }
     }
 

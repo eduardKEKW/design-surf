@@ -44,8 +44,9 @@
     &--center {
         &::before {
             content: 'Your';
-            left: 48%;
-            top: -40%;
+            transform: translateX(-50%);
+            left: 50%;
+            top: -50%;
         }
     }
 
